@@ -13,3 +13,26 @@
     <meta name="viewport" content="target-densitydpi=device-dpi">
     <title>Customer Relations Management</title>
 </head>
+
+<body>
+    <header>
+        <h1>Customer Relations Management</h1>
+    </header>
+    <div id="container">
+        <form action="#" id="mainform" method="post">
+            <fieldset id="newCustomer">
+                <legend>Customer Information</legend>
+                <ul>
+                    <li><label for="first_name">FirstName&#58;</label><input type="text" name="first_name" id="first_name" /></li>
+                    <li><label for="last_name">Last Name&#58;</label> <input type="text" name="last_name" id="last_name" /></li>
+                    <li><label for="homeAdd">Home Address&#58;</label> <input type="text" name="home_add" id="home_add" /></li>
+                    <li><label for="emailAdd">Email Address&#58;</label> <input type="email" name="emailAdd" id="emailAdd" /></li>
+                    <li><label for="phone_number">Home Number&#58;</label><input type="text" name="phone_number" id="phone_number" /></li>
+                    <li><label for="phone_number">Cell Number&#58;</label><input type="text" name="phone_number" id="phone_number" /></li>
+                </ul>
+                 <label for="select_status">Customer Status&#58;</label><select name="select_status" id="select_status">
+                 	<option value="1">New Customer</option>
+                    <option value="2">Potential Customer</option>
+                    <option value="3">VIP Customer</option>
+                </select>
+                </fieldset>
